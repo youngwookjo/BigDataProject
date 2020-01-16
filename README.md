@@ -50,4 +50,17 @@
    
    <br>자세한 내용 위키 참조 <https://github.com/youngwookjo/TeamProject_TravelingByRote/wiki>
 
-
+-----------------------------------------------------------------------------------
+## TDProject 
+  * 틀린게 아니야, 다른거야 "틀다"
+  * RDBMS : Maria DB 10.4.8
+ 
+### Skill Set
+   * NoSQL : Elastic Search 7.1.1 
+   * Back End Development Languages : Java / SQL
+   * Front End Development Language : Java Script / HTML / CSS
+   * Libraries : Lombok / jQuery / Axios / Thymeleaf
+   * Framework : Bootstrap / Spring Boot 2.2.2 / Vue.js
+   * Tools : Eclipse / Visual Studio Code / Kibana / PostMan / SourceTree / ER Master / Oven
+   
+   <br>자세한 내용 위키 참조 <https://github.com/youngwookjo/TeamProject_TravelingByRote/wiki>
