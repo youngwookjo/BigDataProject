@@ -63,4 +63,4 @@
    * Framework : Bootstrap / Spring Boot 2.2.2 / Vue.js
    * Tools : Eclipse / Visual Studio Code / Kibana / PostMan / SourceTree / ER Master / Oven
    
-   <br>자세한 내용 위키 참조 <https://github.com/youngwookjo/TeamProject_TravelingByRote/wiki>
+   <br>자세한 내용 위키 참조 <https://github.com/youngwookjo/TDProject/wiki>
