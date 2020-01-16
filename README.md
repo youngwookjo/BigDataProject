@@ -1,7 +1,7 @@
-#BigDataProject List
+# BigDataProject List
 
 
-# NaverStockNews
+## NaverStockNews
  * 네이버 주식 뉴스 프로젝트
  
 ### Skill Set
@@ -10,14 +10,14 @@
 * Library : Lombok  
 * Tool : Maven, Eclipse  
 ---------------------------------------------------------------------------
-# Project_Simpson
+## Project_Simpson
  * 심슨 가족 정보 조회
  
 ### Skill Set
 * JAVA
 * Servlet & JSP  
 ---------------------------------------------------------------------------
-# NaverStockNews
+## NaverStockNews
  * 네이버 주식 뉴스 프로젝트(upgrade) 다른 버전
  
 ### Skill Set
@@ -25,7 +25,7 @@
   * Maven / JPA, JDBC (DB) / Lombok, Jsoup, Telegrambot
 * MySQL (5.7)
 ----------------------------------------------------------------------------
-# Project_Quiz
+## Project_Quiz
   * 프로그래머스 사이트의 코드 저장 사이트
   
 ### Skill Set
@@ -36,7 +36,7 @@
   * Tool : Maven, Eclipse  
   * Additional technical set : Ajax  
 ------------------------------------------------------------------------------
-# Traveling By Rote
+## Traveling By Rote
   * 여행 정보 공유 사이트
 
 
