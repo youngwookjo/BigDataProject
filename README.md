@@ -47,6 +47,6 @@
    * API : Kakao Map API
    * Data Source : [한국관광공사](http://data.visitkorea.or.kr/linked_open_data) / [Instagram](https://www.instagram.com/?hl=ko)
    
-   * 자세한 내용 위키 참조 <https://github.com/youngwookjo/TeamProject_TravelingByRote/wiki>
+   <br>자세한 내용 위키 참조 <https://github.com/youngwookjo/TeamProject_TravelingByRote/wiki>
 
 
