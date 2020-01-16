@@ -1,0 +1,142 @@
+!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+
+ 
+<div class="container" >
+  <form action="/action_page.php">
+       
+   <h1>친구의 코드를 참고하세요</h1>
+   <hr>    
+    <div class="row">
+      <div class="col-25">
+        <label for="quizlevel">문제 레벨을 선택하세요</label>
+      </div>
+      <div class="col-75">
+        <select id="quizlevel" name="quizlevel">
+          <option value="level1">레벨1</option>
+          <option value="level2">레벨2</option>
+          <option value="level3">레벨3</option>
+          <option value="level4">레벨4</option>
+          <option value="level5">레벨5</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="quizname">문제 이름을 선택하세요</label>
+      </div>
+      <div class="col-75">
+        <select id="quizname" name="quizname">
+          <option value="australia">완주하지 못한 선수</option>
+          <option value="canada">모의고사</option>
+          <option value="usa">체육복</option>
+          <option value="usa">K번째수</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="username">친구를 선택하세요</label>
+      </div>
+      <div class="col-75">
+        <select id="username" name="username">
+          <option value="australia">GOLD 김동범</option>
+          <option value="canada">GOLD 김동성 </option>
+          <option value="canada">SILVER 김종성 </option>
+          <option value="usa">BRONZE 조영욱</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="qiuzcontent">친구는 이렇게 풀었습니다</label>
+      </div>
+      <div class="col-75">
+        <textarea id="quizcontent" name="quizcontent" style="height:200px"></textarea>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

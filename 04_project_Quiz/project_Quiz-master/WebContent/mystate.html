@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: white
+}
+
+h2 {
+  color: white
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>프로그래머스에서 나의 활약상</h1>
+<hr>
+
+<h2>나의 기록은 다음과 같습니다</h2>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h3>MY NAME <br> ID</h3>
+      <p>이름 : 조영욱<br>아이디 : yygg</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/lights.jpg" alt="Lights" style="width:100%">
+      <h3>MY GRADE</h3>
+      <p>그레이드: Silver<br>동일 그레이드내 회원 수: 5명</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/nature.jpg" alt="Nature" style="width:100%">
+      <h3>MY RECORD</h3>
+      <p>푼 문항수: 5개<br>총점: 80점</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h3>DISTANCE to the KING</h3>
+      <p>왕이 되기까지 필요한 점수: 100점<br></p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+<div class="content" class="main">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['누가누가 잘하나', '총점', '푼문항수'],
+          ['나의 기록', 150, 6],
+          ['프로그래머스 왕', 300, 20],
+          ['우리반 평균', 100, 3],
+          
+        ]);
+
+        var options = {
+          chart: {
+            title: '나와 친구들의 기록',
+            subtitle: '누가누가 잘하나',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  
+  
+    <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+
+<!-- END MAIN -->
+</div>
+</div>
+
+</body>
+</html>
