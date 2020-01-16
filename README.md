@@ -1,7 +1,7 @@
 # BigDataProject List
 
 
-## NaverStockNews
+## 1. NaverStockNews
  * 네이버 주식 뉴스 프로젝트
  
 ### Skill Set
@@ -10,14 +10,14 @@
 * Library : Lombok  
 * Tool : Maven, Eclipse  
 ---------------------------------------------------------------------------
-## Project_Simpson
+## 2. Project_Simpson
  * 심슨 가족 정보 조회
  
 ### Skill Set
 * JAVA
 * Servlet & JSP  
 ---------------------------------------------------------------------------
-## NaverStockNews
+## 3. NaverStockNews
  * 네이버 주식 뉴스 프로젝트(upgrade) 다른 버전
  
 ### Skill Set
@@ -25,18 +25,17 @@
   * Maven / JPA, JDBC (DB) / Lombok, Jsoup, Telegrambot
 * MySQL (5.7)
 ----------------------------------------------------------------------------
-## Project_Quiz
+## 4. Project_Quiz
   * 프로그래머스 사이트의 코드 저장 사이트
   
 ### Skill Set
   * RDBMS : Oracle  
   * Back End Development Language : java / Servlet & JSP / sql   
   * Front End Development Language : Java Script / HTML / CSS  
-  * Library : Lombok  
-  * Tool : Maven, Eclipse  
+  * Tool : Maven(Lombok), Eclipse  
   * Additional technical set : Ajax  
 ------------------------------------------------------------------------------
-## Traveling By Rote
+## 5. Traveling By Rote
   * 여행 정보 공유 사이트
 
 
@@ -46,12 +45,13 @@
    * DB : mySQL / Elastic Search
    * Library : Jsoup, Selenium
    * API : Kakao Map API
+   * Tool : Maven(Lombok), Eclipse  
    * Data Source : [한국관광공사](http://data.visitkorea.or.kr/linked_open_data) / [Instagram](https://www.instagram.com/?hl=ko)
    
    <br>자세한 내용 위키 참조 <https://github.com/youngwookjo/TeamProject_TravelingByRote/wiki>
 
 -----------------------------------------------------------------------------------
-## TDProject 
+## 6. TDProject 
   * 틀린게 아니야, 다른거야 "틀다"
 
  
